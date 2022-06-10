@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './Tweet.css'
 import copyIcon from '../copy.png'
+import copy from 'copy-to-clipboard';
 
 const tweetLimit = 280;
 
@@ -26,7 +27,7 @@ function Tweet(props) {
                 <span style={{color: tweetText.length <= tweetLimit ? 'green' : 'red'}}>
                     {tweetText.length}/{tweetLimit}
                 </span>
-                <img alt='copy text' src={copyIcon} onClick={() => navigator.clipboard.writeText(tweetText)} style={{cursor: 'pointer'}}/>
+                <img alt='copy text' src={copyIcon} onClick={() => copy(tweetText)} style={{cursor: 'pointer'}}/>
                 {showButton && <button onClick={onClickNewTweet}>New tweet</button>}
             </div>
         </div>
