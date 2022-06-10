@@ -1,0 +1,24 @@
+.tweet {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    width: fit-content;
+}
+
+.tweetControls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+}
+
+textarea {
+    resize: none;
+    width: 60ch;
+    max-width: 90vw;
+    height: 9em;
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+}
