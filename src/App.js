@@ -4,12 +4,12 @@ import {useEffect, useState} from "react";
 
 function App() {
 
-    const [tweets, setTweets] = useState([<Tweet key={0} newTweet={addTweet}/>])
+    const [tweets, setTweets] = useState([<Tweet key={0} nb={0} newTweet={addTweet}/>])
 
     useEffect(() => window.scrollTo(0, 100000), [tweets])
 
     function addTweet() {
-        setTweets(tweets => [...tweets, <Tweet key={tweets.length} newTweet={addTweet}/>])
+        setTweets(tweets => [...tweets, <Tweet key={tweets.length} nb={tweets.length} newTweet={addTweet}/>])
     }
 
     return (
