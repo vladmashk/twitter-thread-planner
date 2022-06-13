@@ -1,10 +1,11 @@
 # Twitter Thread Planner
 
-1. Install Node
+Write out your whole twitter thread and then post it all at once.
+
+## Instructions:
+1. Install [NodeJS](https://nodejs.org/)
 2. Run `npm install`
 3. Run `npm start`
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
