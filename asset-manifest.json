@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/twitter-thread-planner/static/css/main.841d2e70.css",
+    "main.js": "/twitter-thread-planner/static/js/main.bf8f3872.js",
+    "index.html": "/twitter-thread-planner/index.html",
+    "main.841d2e70.css.map": "/twitter-thread-planner/static/css/main.841d2e70.css.map",
+    "main.bf8f3872.js.map": "/twitter-thread-planner/static/js/main.bf8f3872.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.841d2e70.css",
+    "static/js/main.bf8f3872.js"
+  ]
+}
